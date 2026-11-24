@@ -1,3 +1,4 @@
+
 manifest:
   remotes:
     # Our fork of ZMK, not upstream. v0.3-zen is v0.3 plus one commit:
@@ -39,6 +40,9 @@ manifest:
       remote: sekigon-gonnoc
       revision: main
     - name: zmk-scroll-snap
+      remote: kot149
+      revision: v1
+    - name: zmk-mouse-gesture
       remote: kot149
       revision: v1
   self:
