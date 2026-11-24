@@ -36,6 +36,7 @@
 &pointing_listener {
     input-processors =
         <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP)>,
+        <&zip_mouse_gesture>,
         <&zen_pointer_live_scale>,
         <&zen_auto_mouse>;
 
