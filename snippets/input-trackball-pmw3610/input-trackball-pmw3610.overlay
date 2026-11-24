@@ -40,6 +40,13 @@
         <&zen_pointer_live_scale>,
         <&zen_auto_mouse>;
 
+    browser_gesture {
+        layers = <6>;
+        input-processors =
+            <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP)>,
+            <&zip_browser_gesture>;
+    };
+
     scroller {
         layers = <4>;
         input-processors =
